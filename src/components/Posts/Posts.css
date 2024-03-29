@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.posts-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 33px;
+}
+.posts-item{
+    border: 10px solid tomato;
+    border-radius: 36px;
+    padding: 36px;
+}
