@@ -1,8 +1,9 @@
 import './Posts.css'
-import { Link, useLoaderData } from "react-router-dom";
-
+import { Link, useLoaderData, useNavigate } from "react-router-dom";
 const Posts = () => {
     const posts = useLoaderData();
+    const navigate = useNavigate();
+
     return (
         <div className="posts-wrapper">
             {
